@@ -1,0 +1,30 @@
+{
+  "name": "glued-logger",
+  "version": "0.1.0",
+  "description": "Logging micro service for GluedJS",
+  "main": "index.js",
+  "dependencies": {
+    "glued-common": "^0.1.3"
+  },
+  "devDependencies": {},
+  "bin": {
+    "glued-logger": "bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggioffreda/glued-logger.git"
+  },
+  "keywords": [
+    "glued",
+    "gluedjs",
+    "glued-js",
+    "logger",
+    "logs"
+  ],
+  "author": "Giovanni Gioffreda <giovanni.gioffreda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggioffreda/glued-logger/issues"
+  },
+  "homepage": "https://github.com/ggioffreda/glued-logger#readme"
+}
