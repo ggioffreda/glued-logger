@@ -1,6 +1,6 @@
 {
   "name": "glued-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Logging micro service for GluedJS",
   "main": "index.js",
   "dependencies": {
