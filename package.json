@@ -4,7 +4,7 @@
   "description": "Logging micro service for Glue ecosystems",
   "main": "logger.js",
   "dependencies": {
-    "glued-common": "^0.2.0"
+    "glued-common": "^0.2.1"
   },
   "devDependencies": {},
   "bin": {
