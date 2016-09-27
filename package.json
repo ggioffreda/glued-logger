@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "bin": {
-    "glued-logger": "bin/server.js"
+    "glued-logger": "bin/service.js"
   },
   "repository": {
     "type": "git",
