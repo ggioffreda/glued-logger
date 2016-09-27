@@ -1,5 +1,5 @@
-GluedJS - Logger
-================
+Glue - Logger
+=============
 
 Logging micro service for monitoring the message bus.
 
@@ -22,5 +22,5 @@ To run the service you can install with the `-g` flag and then run the
 The logger will try and connect to the AMQP message bus using the default
 values, you can customise them by setting the *GLUED_AMQP* and 
 *GLUED_MESSAGE_BUS* environment variables. You can find more information in the
-[GluedJS - Common Utilities](https://github.com/ggioffreda/glued-common)
+[Glue Common Utilities](https://github.com/ggioffreda/glued-common)
 documentation.
