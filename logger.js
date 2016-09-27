@@ -31,7 +31,7 @@ function Logger() {
       console.log('Logger: ' + routingKey + '; ' + data);
       logCount++;
       contentBytes += data ? data.length : 0;
-      keyBytes += routingKey.length;
+      keyBytes += routingKey ? routingKey.length : 0;
       cb();
     }, 'logger');
   };
