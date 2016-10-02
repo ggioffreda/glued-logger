@@ -3,6 +3,8 @@ Glue - Logger
 
 Logging micro service for monitoring the message bus.
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Please note at this stage this is meant for non production environments, not 
 because of its stability but because every single message will be logged in 
 its entirety, no matter how big it is or where it comes from, and this might

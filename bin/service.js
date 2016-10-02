@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const ServiceManager = require('glued-common').ServiceManager,
-  manager = new ServiceManager(),
-  Logger = require('../logger').Logger;
+const ServiceManager = require('glued-common').ServiceManager
+const manager = new ServiceManager()
+const Logger = require('../logger').Logger
 
-manager.load(new Logger());
+manager.load(new Logger())
