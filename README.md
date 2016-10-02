@@ -3,6 +3,7 @@ Glue - Logger
 
 Logging micro service for monitoring the message bus.
 
+[![Build Status](https://travis-ci.org/ggioffreda/glued-logger.svg?branch=master)](https://travis-ci.org/ggioffreda/glued-logger)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Please note at this stage this is meant for non production environments, not 
