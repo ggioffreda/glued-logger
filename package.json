@@ -4,7 +4,7 @@
   "description": "Logging micro service for Glue ecosystems",
   "main": "logger.js",
   "dependencies": {
-    "glued-common": "^0.2.1"
+    "glued-common": "^0.3.3"
   },
   "devDependencies": {
     "eslint-config-standard": "^6.2.0",
