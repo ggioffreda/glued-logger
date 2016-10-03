@@ -22,7 +22,7 @@ function Logger () {
   this.setUp = function (dependencies) {
     dependencies['message-bus'].subscribe('#', function (routingKey, content, cb) {
       var data = JSON.stringify(content)
-      console.log('Logger: ' + routingKey + '; ' + data)
+      console.log((new Date()).toISOString() + ' Logger: ' + routingKey + '; ' + data)
       logCount++
       contentBytes += data ? data.length : 0
       keyBytes += routingKey ? routingKey.length : 0
