@@ -1,10 +1,10 @@
 {
   "name": "glued-logger",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Logging micro service for Glue ecosystems",
   "main": "logger.js",
   "dependencies": {
-    "glued-common": "^0.3.3"
+    "glued-common": "^0.4.1"
   },
   "devDependencies": {
     "eslint-config-standard": "^6.2.0",
